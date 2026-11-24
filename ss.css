@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+    height: 80px;
+}
+
+.header h1 {
+    font-size: 50px;
+    padding-left: 30px;
+}
+
+.header ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 40px;
+    padding-right: 30px;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    padding-top: 70px;
+}
+
+.left h1 {
+    font-size: 80px;
+}
+
+.left p {
+    font-size: 30px;
+}
+
+.left button {
+    width: 200px;
+    height: 90px;
+    margin-top: 30px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}
+.right img {
+    width: 600px;
+    height: 600px;
+}
+
+.logo {
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img {
+    height: 200px;
+}
+
+.top {
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 400px;
+}
+
+.kow1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.are1 {
+    margin-top: 20px;
+}
+
+.are1 img {
+    width: 200px;
+    height: 200px;
+}
+
+.footer {
+    height: 200px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+        padding-top: 30px;
+
+}
+
+
+
+.box ul {
+    list-style: none;
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+@media screen and (max-width : 768px) {
+      .cont {
+        flex-direction: column;
+      }
+
+      .left {
+        margin-left: 20px;
+      }
+
+      .left h1 {
+        font-size: 30px;
+      }
+
+      .right img {
+        width: 300px;
+        height: 300px;
+        margin-left: 20px;
+      }
+
+      .logo {
+        flex-direction: column;
+        height: 600px;
+      }
+}
